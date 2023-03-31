@@ -16,7 +16,7 @@ from collections import namedtuple
 # Supporting Functions
 # Data Preprocessing
 def __preprocessing(x):
-    x = np.asarray(x).astype(float)
+    x = np.asarray(x).astype(np.float64)
     dim = x.ndim
     
     if dim == 1:
